@@ -1,0 +1,42 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+<swiper autouplay interval="3000" >
+<swiper-item>
+<image src="/images/fortestuse-1.png"></image>
+</swiper-item>
+</swiper>
+
+<van-grid>
+  <van-grid-item icon="/images/button/fangke.png" text="一键开门" />
+  <van-grid-item icon="/images/button/fangke.png" url="/pages/vs-skip/vs-skip" text="访客邀请" />
+  <van-grid-item icon="/images/button/phone.png" url="/pages/calllog-skip/calllog-skip" text="呼叫记录" />
+  <van-grid-item icon="/images/button/alarm.png" text="一键反尾随" />
+</van-grid>
+<van-grid>
+  <van-grid-item icon="/images/button/message.png" text="一键火警" />
+  <van-grid-item icon="/images/button/repair.png" url="/pages/repair-skip/repair-skip" text="报事维修" />
+  <van-grid-item icon="/images/button/evaluate.png" url="/pages/cmtalk-skip/cmtalk-skip" text="社区评价" />
+  <van-grid-item icon="/images/button/else.png" url="/pages/else-skip/else-skip" text="更多" />
+</van-grid>
+
+<van-notice-bar
+  left-icon="volume-o"
+  scrollable text="V我50"
+/>
+
+<rich-text nodes="<h4 style='color:gray;'>生活服务</h1>"></rich-text>
+
+  <van-image
+  width="10rem"
+  height="10rem"
+  fit="cover"
+  src="/images/fortestuse-2.jpg"
+/>
+<van-image
+  width="10rem"
+  height="10rem"
+  fit="contain"
+  src="/images/fortestuse-3.jpg"
+/>
+
+</view>

@@ -1,0 +1,55 @@
+{
+  "usingComponents": {
+   
+  },
+  "pages": [
+    "pages/home/home",
+    "pages/contact/contact",
+    "pages/message/message",
+    "pages/index/index",
+    "pages/records/records",
+    "pages/calllog-skip/calllog-skip",
+    "pages/repair-skip/repair-skip",
+    "pages/else-skip/else-skip",
+    "pages/cmtalk-skip/cmtalk-skip",
+    "pages/vs-skip/vs-skip",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+ 
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tabs/home.png",
+        "selectedIconPath": "images/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/records/records",
+        "text": "记录",
+        "iconPath": "/images/button/alarm.png",
+        "selectedIconPath": "/images/button/alarm.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "images/tabs/message.png",
+        "selectedIconPath": "images/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "个人",
+        "iconPath": "images/tabs/user.png",
+        "selectedIconPath": "images/tabs/user-active.png"
+      }
+    ]
+  },
+   "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,3 @@
+<!--pages/vs-skip/vs-skip.wxml-->
+<van-divider contentPosition="center" borderColor="#545454">请选择有效时间</van-divider>
+<van-calendar show="{{ show }}" show-confirm="{{ false }}" />
